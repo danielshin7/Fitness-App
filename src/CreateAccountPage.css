@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: silver; /* Navy blue background color */
+  }
+  
+  .centered-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Use the entire viewport height */
+    color: white; /* White text color */
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 300px; /* Adjust width as needed */
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff; /* White background for text boxes */
+    font-size: 16px;
+    outline: none; /* Remove outline on focus */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Add box shadow for modern look */
+  }
+  
+  button[type="submit"] {
+    width: 150px; /* Adjust width as needed */
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0400ff; /* Light blue background color */
+    color: white; /* White text color */
+    font-size: 16px;
+    cursor: pointer;
+    outline: none; /* Remove outline on focus */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Add box shadow for modern look */
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0099cc; /* Darker blue color on hover */
+  }

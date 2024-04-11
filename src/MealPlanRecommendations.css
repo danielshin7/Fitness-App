@@ -1,0 +1,13 @@
+.meal-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .meal-item {
+    margin-bottom: 20px;
+  }
+  
+  .meal-image {
+    width: 400px; /* Set width as desired */
+    height: 400px; /* Set height as desired */
+  }

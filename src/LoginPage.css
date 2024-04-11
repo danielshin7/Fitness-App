@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Use a common sans-serif font */
+    background-color: #f2f2f2; /* Light gray background color */
+  }
+  
+  .login-container {
+    width: 400px; /* Set width of the login container */
+    margin: 100px auto; /* Center the container vertically and horizontally */
+    padding: 40px;
+    background-color: #fff; /* White background color */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+    display: flex; /* Use Flexbox to align items */
+    flex-direction: column; /* Align items vertically */
+    align-items: center; /* Center items horizontally */
+  }
+  
+  .login-container h2 {
+    margin-bottom: 20px; /* Add spacing below heading */
+    color: #333; /* Dark text color */
+  }
+  
+  .login-container label {
+    display: block;
+    margin-bottom: 10px;
+    color: #555; /* Medium-dark text color */
+  }
+  
+  .login-container input[type="text"],
+  .login-container input[type="password"] {
+    width: 100%; /* Take up full width of container */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 3px;
+    box-sizing: border-box; /* Include padding and border in element's total width */
+  }
+  
+  .login-container input[type="submit"] {
+    width: 100%; /* Take up full width of container */
+    padding: 10px;
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .login-container input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+  }
